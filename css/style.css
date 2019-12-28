@@ -1,0 +1,207 @@
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+a{
+
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style-type: none;
+	font-size: 16px;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+.padd-lt-rt-0{
+	padding-right: 0px !important; 
+	padding-left: 0px !important; 
+}
+.text-center{
+	text-align: center;
+}
+
+
+
+
+
+/* -------- Login & Sign up page -------------- */
+.login-signup-img{
+	height: 100vh;
+	background-image: url('../images/img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: left;
+
+}
+
+.center-postion{
+	position: relative;
+	height: 100vh;
+}
+.login-signup-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	width: 55%;
+	text-align: center;
+}
+
+.login-signup-header h4{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #333;
+	padding-bottom: 15px;
+}
+.login-signup-header a {
+	display: inline-block;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+.login-signup-header p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+	color: #999;
+	line-height: 22px;
+}
+
+.login-sign-form-section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.login-sign-form .form-group{
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+.login-sign-form .form-group .form-control{
+	display: block;
+	height: 45px;
+	margin-bottom: 20px;
+	border-radius: 25px;
+	border:solid 1px #ccc;
+	box-shadow: none;
+	font-size: 14px;
+	background-color: #fff;
+	padding-left: 45px;
+}
+.login-sign-form .form-group i{
+	position: absolute;
+    top: 12px;
+    left: 18px;
+    font-size: 20px;
+    color: #999;
+}
+.login-sign-form-btn .btn{
+	display: inline-block;
+	width: 80%;
+	height: 40px;
+	background-color: red;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 25px;
+	box-shadow: 0 3px 8px rgba(255, 0, 0, 0.6588235294117647);
+	/*-webkit-transition: all 0.3s ease;*/
+	
+}
+.login-sign-form-btn .btn:focus{
+	outline: 0;
+	
+}
+.login-sign-form-btn .btn:hover{
+	opacity: 0.9;
+	color: #fff;
+
+}
+
+.signup-link p{
+	color: #999;
+	font-size: 14px;
+	font-weight: 600;
+}
+.signup-link p > a{
+	display: inline-block;
+	text-decoration: underline;
+	color: red;
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+.border-login-or{
+	position: relative;
+	width: 70%;
+	text-align: center;
+	font-size: 15px;
+	color: #777;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.border-login-or:after{
+	position: absolute;
+	content: "";
+	top: 10px;
+	left: 0;
+	width: 43%;
+	height: 1px;
+	background-color: #ccc;
+}
+.border-login-or:before{
+	position: absolute;
+	content: "";
+	top: 10px;
+	right: 0;
+	width: 43%;
+	height: 1px;
+	background-color: #ccc;
+}
+
+.login-another-way h4{
+	color: #999;
+	font-size: 14px;
+	font-weight: 600;
+}
+.login-another-way .login-social-account{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.login-social-account a{
+	display: inline-block;
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+	border:solid 1px #fff;
+	border-radius: 25px;
+	box-shadow: 0 2px 6px #ccc;
+	margin: 0 5px;
+	padding: 5px 15px;
+}
+.login-social-account a i{
+	margin-right: 5px;
+}
+.login-social-account a.fb-link{
+	background-color: #3b5998;
+	border:solid 1px #3b5998;
+}
+.login-social-account a.twit-link{
+	background-color: #00acee ;
+	border:solid 1px #00acee ;
+}
+
+.login-social-account a.gmail-link{
+	background-color: #D44638;
+	border:solid 1px #D44638;
+}
+.login-social-account a:hover{
+	opacity: 0.9;
+}
